@@ -1,0 +1,40 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#contents
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app
+
+  # A list of external hyperlinks related to the component (application).
+  # Icons: https://mui.com/material-ui/material-icons
+  links:
+    - url: https://grafana.test.betsson.tech/d/o0CIBwz4z/bego-overview-v2?orgId=1&var-cluster=All&var-namespace=bego-test-ns-test&var-deployment=app&var-pod=All&var-container=All
+      title: Grafana Dashboard test
+      icon: dashboard
+
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  # Type field is the type of component (application).
+  # Please note that the options are case sensitive.
+  # Options: service | website | library
+  type: service
+
+  # Lifecycle describes the current stage of your application.
+  # Please note that the options are case sensitive.
+  # Options: production | experimental | deprecated
+  lifecycle: experimental
+
+  # Owner field must match the github team, that owns the component
+  # Example:
+  #   owner: tooling-team
+  owner: <YOUR_GITHUB_TEAM>
+
+  # An array of entity references to the components
+  # and resources that the component depends on.
+  # This field is optional.
+  # Example:
+  #   dependson:
+  #     - component:bego-meta
+  #     - component:bego-proxy
+  dependson: []

@@ -1,0 +1,11 @@
+site_name: app
+nav:
+  - README: index.md
+
+# repo_url field must match the github repository url
+# example:
+#   repo_url: https://github.com/betssongroup/bego
+repo_url: https://github.com/BetssonGroup/bego
+plugins:
+  - techdocs-core
+  - kroki
