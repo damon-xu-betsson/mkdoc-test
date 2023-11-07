@@ -1,6 +1,6 @@
 site_name: app
 nav:
-  - README: index.md
+  - README: docs/index.md
 
 # repo_url field must match the github repository url
 # example:
