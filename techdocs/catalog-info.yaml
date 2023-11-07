@@ -28,7 +28,7 @@ spec:
   # Owner field must match the github team, that owns the component
   # Example:
   #   owner: tooling-team
-  owner: <YOUR_GITHUB_TEAM>
+  owner: Damon
 
   # An array of entity references to the components
   # and resources that the component depends on.

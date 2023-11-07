@@ -1,0 +1,9 @@
+name: app
+group: bego-test
+subGroup: ns
+containerPort: 3030
+team: tooling
+environments:
+  test:
+    clusters:
+    - tooling-igaming-test-euc1

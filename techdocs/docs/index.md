@@ -1,6 +1,7 @@
 # app
 
-<!-- https://devsson.betsson.tech/docs/default/component/docs-technical-principles/documentation/ -->
+shown
+
 
 ```kroki-mermaid
 sequenceDiagram
