@@ -1,4 +1,4 @@
-name: app
+name: unreachable-docs
 group: bego-test
 subGroup: ns
 containerPort: 3030

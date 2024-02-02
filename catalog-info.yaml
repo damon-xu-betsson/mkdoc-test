@@ -3,7 +3,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: app
+  name: unreachable-docs
 
   # A list of external hyperlinks related to the component (application).
   # Icons: https://mui.com/material-ui/material-icons
